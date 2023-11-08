@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main()
@@ -7,16 +8,16 @@ int main()
 
 	printf("VYPOCTETE OBSAH OBDELNIKU\n");
 	printf("Zadejte sirku:\n");
-	scanf_s("%f", &X);
+	scanf("%f", &X);
 	printf("Zadejte vysku:\n");
-	scanf_s("%f", &Y);
-
+	scanf("%f", &Y);
+	puts("");
 	float Z = X * Y;
-	printf("Obsah obdelniku je: ");
-	printf("%f \n", Z);
+	printf("Obsah obdelniku je: %f\n", Z);
+	
 	float A = 2 * (X + Y);
-	printf("Obvod obdelniku je: ");
-	printf("%f", A);
+	printf("Obvod obdelniku je: %f\n", A);
+	
 
 	return 0;
 

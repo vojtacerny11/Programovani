@@ -12,7 +12,9 @@ int main()
 
 	
 	float S = 2 * sqrt(3.0) * A * A;
-	printf("Obsah osmistenu je %.3f", S);
+	printf("Obsah osmistenu je %.3f\n", S);
 
+	float O = 12 * A;
+	printf("Obvod vsech hran osmistenu je %.3f", O);
 	return 0;
 }

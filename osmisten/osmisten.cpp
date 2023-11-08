@@ -7,7 +7,7 @@ int main()
 	printf("Zadejte delku hrany osmistenu: \n");
 	float A;
 	scanf("%f", &A);
-	float V = sqrt(2.0) / 3 * A * A * A;
+	float V = sqrt(2.0) / 3 * A * A *A;
 	printf("\nObjem osmistenu je %.3f\n", V);
 
 	

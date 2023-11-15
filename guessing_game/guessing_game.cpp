@@ -8,12 +8,23 @@ int main()
 	int pokusyLimit = 3;
 	int pokusy = 0;
 	int trueLimit = 0;
+	printf("TYPNETE CISLO, MATE 3 POKUSY\n");
+	printf("zadejte cislo od 1 do 10: ");
+	scanf("%d", &typ);
+	pokusy++;
 
 	while (typ != odpoved && trueLimit == 0) {
 		if (pokusy < pokusyLimit) {
-			printf("zadejte cislo od 1 do 10: ");
-			scanf("%d", &typ);
-			pokusy++;
+			if(typ < odpoved) {
+				printf("spatne, zadejte jine vetsi cislo od 1 do 10: ");
+				scanf("%d", &typ);
+				pokusy++;
+			} else {
+				printf("spatne, zadejte jine mensi cislo od 1 do 10: ");
+				scanf("%d", &typ);
+				pokusy++;
+			}
+			
 		}
 		else {
 			trueLimit = 1;

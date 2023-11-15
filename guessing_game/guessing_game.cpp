@@ -1,9 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main()
 {
-	int odpoved = 7;
+	srand(time(0));
+
+	int odpoved = rand() % 10 + 1;
 	int typ = 0;
 	int pokusyLimit = 3;
 	int pokusy = 0;

@@ -3,7 +3,7 @@
 
 int main()
 {
-	int odpoved = 2;
+	int odpoved = 7;
 	int typ = 0;
 	int pokusyLimit = 3;
 	int pokusy = 0;
@@ -16,11 +16,11 @@ int main()
 	while (typ != odpoved && trueLimit == 0) {
 		if (pokusy < pokusyLimit) {
 			if(typ < odpoved) {
-				printf("spatne, zadejte jine vetsi cislo od 1 do 10: ");
+				printf("spatne, zadejte jine vetsi cislo od %d do 10: ", typ);
 				scanf("%d", &typ);
 				pokusy++;
 			} else {
-				printf("spatne, zadejte jine mensi cislo od 1 do 10: ");
+				printf("spatne, zadejte jine mensi cislo od 1 do %d: ", typ);
 				scanf("%d", &typ);
 				pokusy++;
 			}

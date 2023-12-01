@@ -50,7 +50,12 @@ int main()
 		}
 	}
 
-	printf("Score: %d/%d", score, pocetotazek);
+	printf("Score: %d/%d\n", score, pocetotazek);
+
+	if (score == 2)
+	{
+		printf("ty me snad stalkujes nebo co");
+	}
 
 	return 0;
 }

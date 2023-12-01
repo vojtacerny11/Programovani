@@ -21,7 +21,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "guessing_game", "guessing_g
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrays", "arrays\arrays.vcxproj", "{2822822B-A049-4C51-9B04-EB0FA4BCCC7F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ifpractise", "ifpractise\ifpractise.vcxproj", "{4EF918AE-765D-4BDC-9DDA-F62AEF199C72}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cas", "ifpractise\ifpractise.vcxproj", "{4EF918AE-765D-4BDC-9DDA-F62AEF199C72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kviz", "kviz\kviz.vcxproj", "{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{4EF918AE-765D-4BDC-9DDA-F62AEF199C72}.Release|x64.Build.0 = Release|x64
 		{4EF918AE-765D-4BDC-9DDA-F62AEF199C72}.Release|x86.ActiveCfg = Release|Win32
 		{4EF918AE-765D-4BDC-9DDA-F62AEF199C72}.Release|x86.Build.0 = Release|Win32
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Debug|x64.ActiveCfg = Debug|x64
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Debug|x64.Build.0 = Debug|x64
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Debug|x86.Build.0 = Debug|Win32
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Release|x64.ActiveCfg = Release|x64
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Release|x64.Build.0 = Release|x64
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Release|x86.ActiveCfg = Release|Win32
+		{B4E34313-6D77-4C5F-9FD8-545CF97A6CE4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,7 +28,7 @@ int main()
 	printf("zadejte cele cislo\n");
 	scanf("%d", &a);
 	int x = a % (sloupec / w) * w;
-	int y = a / (sloupec / h) * h;
+	int y = a / (sloupec / w) * h;
 	printf("x = %d, y = %d", x, y);
 
 	return 0;

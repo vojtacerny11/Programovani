@@ -2,11 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#define smile 10
 
-char board[3][3];
 int a;
-int b;
 void cislo()
 {
 	printf("napiste cislo a ja ho uhadnu: \n");

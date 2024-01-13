@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hra", "hra\hra.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "konzolovyhadchatgpt", "konzolovyhadchatgpt\konzolovyhadchatgpt.vcxproj", "{2B5216DE-E834-41F5-A543-A26095E9DFD5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tata_prvocisla", "tata_prvocisla\tata_prvocisla.vcxproj", "{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{2B5216DE-E834-41F5-A543-A26095E9DFD5}.Release|x64.Build.0 = Release|x64
 		{2B5216DE-E834-41F5-A543-A26095E9DFD5}.Release|x86.ActiveCfg = Release|Win32
 		{2B5216DE-E834-41F5-A543-A26095E9DFD5}.Release|x86.Build.0 = Release|Win32
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Debug|x64.ActiveCfg = Debug|x64
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Debug|x64.Build.0 = Debug|x64
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Debug|x86.Build.0 = Debug|Win32
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Release|x64.ActiveCfg = Release|x64
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Release|x64.Build.0 = Release|x64
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Release|x86.ActiveCfg = Release|Win32
+		{A8B5FAAA-52C1-4E4A-A2F6-3084B3AE7349}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

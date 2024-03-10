@@ -150,21 +150,30 @@ void Hrac2()
 
 void urceniVyherce()
 {
+	//rady
 	for (int i = 0; i < 3; i++)
 	{
-		//rady
 		if (arr[i][0] == arr[i][1] && arr[i][0] == arr[i][2])
 		{
 			vyherce = arr[i][0];
 		}
-		//slopupce
-		for (int i = 0; i < 3; i++)
+	}
+	//slopupce
+	for (int i = 0; i < 3; i++)
+	{
+		if (arr[0][i] == arr[1][i] && arr[0][i] == arr[2][i])
 		{
-			if (arr[0][i] == arr[1][i] && arr[0][i] == arr[2][i])
-			{
 				vyherce = arr[0][i];
-			}
 		}
+	}
+	//diagonální
+	if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2])
+	{
+		vyherce = arr[0][0];
+	}
+	if (arr[2][0] == arr[1][1] && arr[2][0] == arr[0][2])
+	{
+		vyherce = arr[2][0];
 	}
 }
 

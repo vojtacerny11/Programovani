@@ -216,11 +216,11 @@ void urceniVyherce()
 			}
 		}
 		//diagonalni
-		if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2] && arr[0][0] != ' ')
+		if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2])
 		{
 			vyherce = arr[0][0];
 		}
-		if (arr[2][0] == arr[1][1] && arr[2][0] == arr[0][2] && arr[2][0] != ' ')
+		if (arr[2][0] == arr[1][1] && arr[2][0] == arr[0][2])
 		{
 			vyherce = arr[2][0];
 		}

@@ -23,7 +23,7 @@ int main()
 		resetPole();
 		VypisPole();
 
-		while (vyherce == ' ' && volnaMista > 0)
+		while (vyherce == ' ')
 		{
 			Hrac1();
 			VypisPole();
@@ -202,7 +202,7 @@ void urceniVyherce()
 		//rady
 		for (int i = 0; i < 3; i++)
 		{
-			if (arr[i][0] == arr[i][1] && arr[i][0] == arr[i][2])
+			if (arr[i][0] == arr[i][1] && arr[i][0] == arr[i][2] && arr[i][0] != ' ')
 			{
 				vyherce = arr[i][0];
 			}
@@ -210,17 +210,17 @@ void urceniVyherce()
 		//slopupce
 		for (int i = 0; i < 3; i++)
 		{
-			if (arr[0][i] == arr[1][i] && arr[0][i] == arr[2][i])
+			if (arr[0][i] == arr[1][i] && arr[0][i] == arr[2][i] && arr[0][i] != ' ')
 			{
 				vyherce = arr[0][i];
 			}
 		}
 		//diagonalni
-		if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2])
+		if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2] && arr[0][0] != ' ')
 		{
 			vyherce = arr[0][0];
 		}
-		if (arr[2][0] == arr[1][1] && arr[2][0] == arr[0][2])
+		if (arr[2][0] == arr[1][1] && arr[2][0] == arr[0][2] && arr[2][0] != ' ')
 		{
 			vyherce = arr[2][0];
 		}

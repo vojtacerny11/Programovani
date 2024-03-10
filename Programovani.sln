@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tata_prvocisla", "tata_prvo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToe", "TicTacToe\TicTacToe.vcxproj", "{3DCBBA92-17AC-4E68-B91A-3AA0D92E80FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeSkola", "TicTacToeSkola\TicTacToeSkola.vcxproj", "{0CC4DF7E-3577-48CE-AC25-F0A67850A804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{3DCBBA92-17AC-4E68-B91A-3AA0D92E80FE}.Release|x64.Build.0 = Release|x64
 		{3DCBBA92-17AC-4E68-B91A-3AA0D92E80FE}.Release|x86.ActiveCfg = Release|Win32
 		{3DCBBA92-17AC-4E68-B91A-3AA0D92E80FE}.Release|x86.Build.0 = Release|Win32
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Debug|x64.ActiveCfg = Debug|x64
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Debug|x64.Build.0 = Debug|x64
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Debug|x86.Build.0 = Debug|Win32
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Release|x64.ActiveCfg = Release|x64
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Release|x64.Build.0 = Release|x64
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Release|x86.ActiveCfg = Release|Win32
+		{0CC4DF7E-3577-48CE-AC25-F0A67850A804}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

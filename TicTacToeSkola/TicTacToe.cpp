@@ -166,7 +166,7 @@ void urceniVyherce()
 				vyherce = arr[0][i];
 		}
 	}
-	//diagonální
+	//diagonalni
 	if (arr[0][0] == arr[1][1] && arr[0][0] == arr[2][2])
 	{
 		vyherce = arr[0][0];

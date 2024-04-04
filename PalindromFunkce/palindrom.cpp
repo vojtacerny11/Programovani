@@ -22,6 +22,7 @@ int main()
 	fgets(str, 100, stdin);
 	Length = DelkaRetezce(str);
 	KontrolaPalindromu();
+	str[Length] = '\0';
 	if (Pravda)
 	{
 		printf("retezec %s je palindrom", str);
@@ -35,7 +36,7 @@ int main()
 
 void KontrolaPalindromu()
 {
-	for (int i = 0; i < Length; i++)
+	for (int i = 0; i < Length / 2; i++)
 	{
 		if (str[i] != str[Length - 1 - i])
 		{

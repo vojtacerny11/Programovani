@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TicTacToeSkola", "TicTacToe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PalindromFunkce", "PalindromFunkce\PalindromFunkce.vcxproj", "{BBD72482-B0B5-4C38-94FB-4AB14F21B91C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snake2", "snake2\snake2.vcxproj", "{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{BBD72482-B0B5-4C38-94FB-4AB14F21B91C}.Release|x64.Build.0 = Release|x64
 		{BBD72482-B0B5-4C38-94FB-4AB14F21B91C}.Release|x86.ActiveCfg = Release|Win32
 		{BBD72482-B0B5-4C38-94FB-4AB14F21B91C}.Release|x86.Build.0 = Release|Win32
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Debug|x64.ActiveCfg = Debug|x64
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Debug|x64.Build.0 = Debug|x64
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Debug|x86.Build.0 = Debug|Win32
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Release|x64.ActiveCfg = Release|x64
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Release|x64.Build.0 = Release|x64
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Release|x86.ActiveCfg = Release|Win32
+		{0E5B52BF-4997-4988-9FE0-D2BDA21CD538}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

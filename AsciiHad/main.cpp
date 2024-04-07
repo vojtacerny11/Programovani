@@ -114,6 +114,9 @@ void moveHad()
 			jablkoSpawn();
 		}
 		break;
+	case '\033': //enter
+		Konec = 1;
+		break;
 	default:
 		break;
 	}

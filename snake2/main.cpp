@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+#define ROWS 15
+#define COLS 15
+
 int spawnCol;
 int spawnRow;
 int nRadek = 12;
@@ -39,11 +43,15 @@ int main()
 
 void resetPole()
 {
-	for (int i = 0; i < 15; i++)
+	for (int i = 0; i < ROWS; i++)
 	{
-		for (int j = 0; j < 15; j++)
+		for (int j = 0; j < COLS; j++)
 		{
 			hraciPlocha[i][j] = volnePole;
+			if (j == 0 || j == 14)
+				hraciPlocha[i][j] = '|';
+			if (i == 0 ||i == 14)
+				hraciPlocha[i][j] = '-';
 		}
 	}
 }
@@ -51,8 +59,8 @@ void resetPole()
 void  printBoard()
 {
 	system("cls");
-	for (int i = 0; i < 15; i++) {
-		for (int j = 0; j < 15; j++) {
+	for (int i = 0; i < ROWS; i++) {
+		for (int j = 0; j < COLS; j++) {
 			hraciPlocha[nRadek][nSloupec] = Had;
 			printf("%c ", hraciPlocha[i][j]);
 		}
@@ -67,7 +75,7 @@ void moveHad()
 		{
 		case 'a':
 			nSloupec--;
-			if (hraciPlocha[nRadek][nSloupec] == '#')
+			if (hraciPlocha[nRadek][nSloupec] == '#' || hraciPlocha[nRadek][nSloupec] == '|')
 				GameOver();
 			if (hraciPlocha[nRadek][nSloupec] == 'o') {
 				hraciPlocha[nRadek][nSloupec] = '#';
@@ -77,7 +85,7 @@ void moveHad()
 			break;
 		case 'd':
 			nSloupec++;
-			if (hraciPlocha[nRadek][nSloupec] == '#')
+			if (hraciPlocha[nRadek][nSloupec] == '#' || hraciPlocha[nRadek][nSloupec] == '|')
 				GameOver();
 			if (hraciPlocha[nRadek][nSloupec] == 'o') {
 				hraciPlocha[nRadek][nSloupec] = '#';
@@ -87,7 +95,7 @@ void moveHad()
 			break;
 		case 'w':
 			nRadek--;
-			if (hraciPlocha[nRadek][nSloupec] == '#')
+			if (hraciPlocha[nRadek][nSloupec] == '#' || hraciPlocha[nRadek][nSloupec] == '-')
 				GameOver();
 			if (hraciPlocha[nRadek][nSloupec] == 'o') {
 				hraciPlocha[nRadek][nSloupec] = '#';
@@ -97,7 +105,7 @@ void moveHad()
 			break;
 		case 's':
 			nRadek++;
-			if (hraciPlocha[nRadek][nSloupec] == '#')
+			if (hraciPlocha[nRadek][nSloupec] == '#' || hraciPlocha[nRadek][nSloupec] == '-')
 				GameOver();
 			if (hraciPlocha[nRadek][nSloupec] == 'o') {
 				hraciPlocha[nRadek][nSloupec] = '#';
@@ -118,7 +126,12 @@ void GameOver()
 
 void jablkoSpawn()
 {
+	while (hraciPlocha[spawnRow][spawnCol] != Jablko) {
 		spawnCol = rand() % 13 + 1;
 		spawnRow = rand() % 13 + 1;
-		hraciPlocha[spawnRow][spawnCol] = Jablko;
+		if (hraciPlocha[spawnRow][spawnCol] == ' ')
+		{
+			hraciPlocha[spawnRow][spawnCol] = Jablko;
+		}
+	}
 }

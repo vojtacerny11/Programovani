@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsciiHad", "AsciiHad\AsciiH
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raylibPokus", "raylibPokus\raylibPokus.vcxproj", "{09002AC5-3100-4A39-982C-8DE13DD772D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HadaniMin", "HadaniMin\HadaniMin.vcxproj", "{3D3102DB-F1C8-494F-A6F7-90D65D101953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{09002AC5-3100-4A39-982C-8DE13DD772D0}.Release|x64.Build.0 = Release|x64
 		{09002AC5-3100-4A39-982C-8DE13DD772D0}.Release|x86.ActiveCfg = Release|Win32
 		{09002AC5-3100-4A39-982C-8DE13DD772D0}.Release|x86.Build.0 = Release|Win32
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Debug|x64.ActiveCfg = Debug|x64
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Debug|x64.Build.0 = Debug|x64
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Debug|x86.Build.0 = Debug|Win32
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Release|x64.ActiveCfg = Release|x64
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Release|x64.Build.0 = Release|x64
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Release|x86.ActiveCfg = Release|Win32
+		{3D3102DB-F1C8-494F-A6F7-90D65D101953}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

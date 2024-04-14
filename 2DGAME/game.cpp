@@ -102,7 +102,7 @@ int main()
 				charPos.y -= CellHeight;
 				DrawTextureRec(sprite, source, charPos, WHITE);
 			}
-			if (charPos.x < 0 || charPos.y < 0 || charPos.x == SCREENWIDTH || charPos.y == SCREENHEIGHT)
+			if (charPos.x < 0 || charPos.y < 0 || charPos.x == SCREENWIDTH || charPos.y >= SCREENHEIGHT - CellHeight)
 			{
 				break;
 			}
